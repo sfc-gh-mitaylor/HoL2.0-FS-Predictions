@@ -13,3 +13,4 @@ dependencies:
   - matplotlib
   - pip:
     - snowflake-ml-python # temporary till it's in the Snowflake conda channel
+    - backtesting
