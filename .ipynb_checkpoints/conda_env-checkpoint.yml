@@ -1,4 +1,4 @@
-name: snowpark-ml-hol
+name: snowpark-ml-hol-v7
 channels:
   - https://repo.anaconda.com/pkgs/snowflake
 dependencies:
@@ -11,5 +11,7 @@ dependencies:
   - cachetools
   - seaborn
   - matplotlib
+  - pyarrow
   - pip:
-    - snowflake-ml-python # temporary till it's in the Snowflake conda channel
+    - backtesting
+    - snowflake-ml-python 
