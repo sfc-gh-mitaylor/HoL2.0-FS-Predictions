@@ -1,4 +1,4 @@
-name: snowpark-ml-hol-v7
+name: snowpark-ml-hol
 channels:
   - https://repo.anaconda.com/pkgs/snowflake
 dependencies:
